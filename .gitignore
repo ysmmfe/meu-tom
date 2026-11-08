@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.env
+.env.local
+*.tsbuildinfo
+playwright-report/
+test-results/
+coverage/
+*.rda
+chorrrds-index-export*.json
+__pycache__/
+.agents
+docs/

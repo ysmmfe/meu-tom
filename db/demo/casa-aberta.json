@@ -1,0 +1,15 @@
+{
+  "title": "Casa aberta",
+  "artist": "Oficina Meu Tom",
+  "slug": "casa-aberta",
+  "genre": "Folk brasileiro",
+  "format": "chordpro",
+  "content": "{title: Casa aberta}\n{artist: Oficina Meu Tom}\n{key: G}\n{section: Verso}\n[G]Uma cadeira, [D]um café no fim\n[Em]A casa aberta [C]espera por mim\n[G]A tarde passa [D]sem avisar\n[Em]Deixo a janela [C]me acompanhar\n{section: Refrão}\n[G]Pode chegar, [D]pode ficar\n[Em]Tem uma canção [C]pra gente tocar",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/casa-aberta",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}

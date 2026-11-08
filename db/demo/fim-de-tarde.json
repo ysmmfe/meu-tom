@@ -1,0 +1,15 @@
+{
+  "title": "Fim de tarde",
+  "artist": "Roda de estudo",
+  "slug": "fim-de-tarde",
+  "genre": "Pop brasileiro",
+  "format": "chordpro",
+  "content": "{title: Fim de tarde}\n{artist: Roda de estudo}\n{key: G}\n{section: Verso}\n[G]No fim da tarde [C]tudo é devagar\n[D]Guardo uma parte [G]desse nosso olhar\n[G]O céu acende [C]sua última cor\n[D]E a rua aprende [G]um verso de amor\n{section: Refrão}\n[C]Deixa a noite [G]se aproximar\n[D]Nosso canto [G]vai continuar",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/fim-de-tarde",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}

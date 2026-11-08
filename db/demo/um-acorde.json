@@ -1,0 +1,15 @@
+{
+  "title": "Um acorde de cada vez",
+  "artist": "Roda de estudo",
+  "slug": "um-acorde",
+  "genre": "Baião",
+  "format": "chordpro",
+  "content": "{title: Um acorde de cada vez}\n{artist: Roda de estudo}\n{key: E}\n{section: Verso}\n[E]Um acorde de cada vez\n[E]Um cuidado que a gente fez\n[E]Se o começo parece só\n[E]Cada corda desfaz um nó\n{section: Refrão}\n[E]Toca junto, deixa soar\n[E]Tem um mundo pra escutar",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/um-acorde",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}

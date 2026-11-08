@@ -1,0 +1,15 @@
+{
+  "title": "Ponte de papel",
+  "artist": "Oficina Meu Tom",
+  "slug": "ponte-de-papel",
+  "genre": "MPB",
+  "format": "chordpro",
+  "content": "{title: Ponte de papel}\n{artist: Oficina Meu Tom}\n{key: C}\n{section: Verso}\n[C7M]Fiz uma ponte [Dm7]de papel\n[G7]Para alcançar [C7M]um outro céu\n[Am7]Cada palavra [Dm7]que escrevi\n[G/B]Trouxe um pedaço [C7M]de você aqui\n{section: Refrão}\n[Dm7]Sem esquecer [G7]de respirar\n[C7M]Há tanta coisa [Am7]pra cantar",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/ponte-de-papel",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}

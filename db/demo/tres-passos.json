@@ -1,0 +1,15 @@
+{
+  "title": "Três passos",
+  "artist": "Roda de estudo",
+  "slug": "tres-passos",
+  "genre": "Baião",
+  "format": "chordpro",
+  "content": "{title: Três passos}\n{artist: Roda de estudo}\n{key: A}\n{section: Verso}\n[A]Três passos na [D]terra\n[E]Um vento no [A]quintal\n[A]Meu peito não [D]encerra\n[E]Esse toque tão [A]igual\n{section: Refrão}\n[D]Bate o pé, [A]marca o chão\n[E]Vai girando a [A]canção",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/tres-passos",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}

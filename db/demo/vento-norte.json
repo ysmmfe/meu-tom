@@ -1,0 +1,15 @@
+{
+  "title": "Vento norte",
+  "artist": "Roda de estudo",
+  "slug": "vento-norte",
+  "genre": "Folk brasileiro",
+  "format": "chordpro",
+  "content": "{title: Vento norte}\n{artist: Roda de estudo}\n{key: D}\n{section: Verso}\n[D]O vento norte [A]me levou\n[Bm]Pra uma estrada [G]que mudou\n[D]O meu jeito [A]de seguir\n[Bm]Tanta coisa [G]por ouvir\n{section: Refrão}\n[D]Vou sem medo, [A]vou cantar\n[Bm]Meu segredo [G]é caminhar",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/vento-norte",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}

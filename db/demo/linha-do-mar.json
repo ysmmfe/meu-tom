@@ -1,0 +1,15 @@
+{
+  "title": "Linha do mar",
+  "artist": "Oficina Meu Tom",
+  "slug": "linha-do-mar",
+  "genre": "MPB",
+  "format": "chordpro",
+  "content": "{title: Linha do mar}\n{artist: Oficina Meu Tom}\n{key: C}\n{section: Verso}\n[C]Na linha do [G]mar\n[Am]Eu deixo a voz [F]andar\n[C]Sem pressa de [G]chegar\n[Am]Eu vou me [F]encontrar\n{section: Refrão}\n[F]O vento [G]traz\n[C]Um pouco de [Am]paz\n[F]A onda [G]vem\n[C]E canta também",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/linha-do-mar",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}

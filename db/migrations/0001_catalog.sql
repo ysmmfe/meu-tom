@@ -1,0 +1,16 @@
+CREATE TABLE artists (id text PRIMARY KEY, name text NOT NULL, slug text NOT NULL UNIQUE);
+CREATE INDEX artist_name_idx ON artists(name);
+CREATE TABLE songs (id text PRIMARY KEY, title text NOT NULL, slug text NOT NULL UNIQUE, artist_id text NOT NULL REFERENCES artists(id), genre text NOT NULL, original_key text, language text NOT NULL DEFAULT 'pt-BR', difficulty integer NOT NULL, chords jsonb NOT NULL, progression jsonb NOT NULL, original_capo integer NOT NULL DEFAULT 0 CHECK (original_capo BETWEEN 0 AND 7), created_at timestamp NOT NULL DEFAULT now(), updated_at timestamp NOT NULL DEFAULT now());
+CREATE INDEX song_title_idx ON songs(title);
+CREATE INDEX song_genre_idx ON songs(genre);
+CREATE INDEX song_artist_idx ON songs(artist_id);
+CREATE INDEX song_chords_idx ON songs USING gin(chords);
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+CREATE INDEX song_title_search_idx ON songs USING gin(lower(title) gin_trgm_ops);
+CREATE INDEX artist_search_idx ON artists USING gin(lower(name) gin_trgm_ops);
+CREATE TABLE sources (id text PRIMARY KEY, provider text NOT NULL, url text NOT NULL UNIQUE, license text NOT NULL, permission text NOT NULL, status text NOT NULL, fetched_at timestamp NOT NULL DEFAULT now());
+CREATE TABLE song_versions (id text PRIMARY KEY, song_id text NOT NULL REFERENCES songs(id), source_id text NOT NULL UNIQUE REFERENCES sources(id), revision text NOT NULL, status text NOT NULL, warnings jsonb NOT NULL);
+CREATE TABLE song_sections (id text PRIMARY KEY, version_id text NOT NULL REFERENCES song_versions(id) ON DELETE CASCADE, name text NOT NULL, "order" integer NOT NULL, repeat integer NOT NULL, lines jsonb NOT NULL);
+CREATE INDEX section_version_idx ON song_sections(version_id);
+CREATE TABLE chord_occurrences (id text PRIMARY KEY, section_id text NOT NULL REFERENCES song_sections(id) ON DELETE CASCADE, symbol text NOT NULL, normalized text NOT NULL, line integer NOT NULL, position integer NOT NULL, "order" integer NOT NULL);
+CREATE INDEX chord_normalized_idx ON chord_occurrences(normalized);

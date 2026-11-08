@@ -1,0 +1,15 @@
+{
+  "title": "Roda pequena",
+  "artist": "Roda de estudo",
+  "slug": "roda-pequena",
+  "genre": "Samba",
+  "format": "chordpro",
+  "content": "{title: Roda pequena}\n{artist: Roda de estudo}\n{key: C}\n{section: Verso}\n[C]A roda é pequena, [F]mas cabe você\n[G7]No toque da palma [C]eu vou aprender\n[C]O dia termina, [F]a noite chegou\n[G7]No banco da praça [C]a gente ficou\n{section: Refrão}\n[F]Vem na cadência, [C]vem devagar\n[G7]Quem tem paciência [C]vai encontrar",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/roda-pequena",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}

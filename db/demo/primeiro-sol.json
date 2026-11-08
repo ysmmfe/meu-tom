@@ -1,0 +1,15 @@
+{
+  "title": "Primeiro sol",
+  "artist": "Oficina Meu Tom",
+  "slug": "primeiro-sol",
+  "genre": "Pop brasileiro",
+  "format": "chordpro",
+  "content": "{title: Primeiro sol}\n{artist: Oficina Meu Tom}\n{key: A}\n{section: Introdução}\n[A] [E] [F#m] [D]\n{section: Verso}\n[A]Abro a janela, [E]deixo o dia entrar\n[F#m]Quatro acordes e um [D]jeito de começar\n[A]Cada passo encontra [E]seu lugar no chão\n[F#m]Hoje eu levo o [D]sol na minha mão\n{section: Refrão}\n{repeat: 2}\n[A]Vem cantar [E]sem correr\n[F#m]Há um caminho [D]pra aprender\n[A]Se a voz mudar, [E]eu sigo o tom\n[F#m]Todo começo [D]tem seu som",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/primeiro-sol",
+    "license": "CC0-1.0",
+    "permission": "Composição didática original criada para este repositório; dedicada ao domínio público sob CC0.",
+    "publishable": true
+  }
+}

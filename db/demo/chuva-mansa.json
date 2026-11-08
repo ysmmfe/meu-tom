@@ -1,0 +1,15 @@
+{
+  "title": "Chuva mansa",
+  "artist": "Oficina Meu Tom",
+  "slug": "chuva-mansa",
+  "genre": "MPB",
+  "format": "chordpro",
+  "content": "{title: Chuva mansa}\n{artist: Oficina Meu Tom}\n{key: Em}\n{section: Verso}\n[Em]Chuva mansa no [C]telhado\n[G]Um silêncio de [D]algodão\n[Em]Deixo o tempo [C]do meu lado\n[G]E o violão na [D]minha mão\n{section: Ponte}\n[Am]Cada gota tem [C]caminho\n[G]Cada nota tem [D]razão",
+  "source": {
+    "provider": "local-original",
+    "url": "local://demo/chuva-mansa",
+    "license": "CC0-1.0",
+    "permission": "Composição original CC0 para demonstração.",
+    "publishable": true
+  }
+}
